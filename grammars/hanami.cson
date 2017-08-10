@@ -1,0 +1,6 @@
+'scopeName': 'source.ruby.hanami'
+'name': 'Hanami'
+'fileTypes': [
+  'rb'
+  'Gemfile'
+]

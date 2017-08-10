@@ -1,14 +1,12 @@
 {
   "name": "language-hanami",
-  "main": "./lib/language-hanami",
   "version": "0.0.1",
   "description": "Hamani framework support in Atom",
-  "keywords": [
-  ],
-  "activationCommands": {
-    "atom-workspace": "language-hanami:toggle"
+  "homepage": "https://github.com/shiroginne/language-hanami",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shiroginne/language-hanami.git"
   },
-  "repository": "https://github.com/shiroginne/language-hanami",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
