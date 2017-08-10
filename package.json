@@ -1,6 +1,6 @@
 {
   "name": "language-hanami",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "Hamani framework support in Atom",
   "homepage": "https://github.com/shiroginne/language-hanami",
   "repository": {
