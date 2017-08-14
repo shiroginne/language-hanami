@@ -1,0 +1,4 @@
+'.source.ruby.hanami':
+  'Controller action':
+    'prefix': 'act'
+    'body': 'class ${1:title}\n\tinclude Web::Action\n\n\tdef call(params)$0\n\tend\nend'

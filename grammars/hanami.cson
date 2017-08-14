@@ -4,3 +4,22 @@
   'rb'
   'Gemfile'
 ]
+'patterns': [
+  {
+    'begin': '(^\\s*)(?=class\\s+(([.a-zA-Z0-9_:]+Web::Controllers\\b(\\s*<\\s*[.a-zA-Z0-9_:]+)?)|(<<\\s*[.a-zA-Z0-9_:]+)))(?!.+\\bend\\b)'
+    'comment': 'Uses lookahead to match classes with the Web::Controllers suffix; includes \'source.ruby\' to avoid infinite recursion'
+    'end': '^\\1(?=end)\\b'
+    'name': 'meta.hanami.controller'
+    'patterns': [
+      {
+        'include': 'source.ruby'
+      }
+      {
+        'include': '$self'
+      }
+    ]
+  }
+  {
+    'include': 'source.ruby'
+  }
+]
